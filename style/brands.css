@@ -1,0 +1,39 @@
+.button,button {
+	color:var(--button-text,#000000);
+	background-color:var(--button-background,transparent);
+	border:var(--button-border,none);
+	transition:filter 0.2s ease,transform 0.2s ease;
+}
+
+.button:hover,button:hover {
+	filter:brightness(90%);
+	transform:translateY(-1px);
+}
+
+.icon {
+	filter:var(--icon-filter,none);
+}
+
+.button-instagram {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+.button-youtube {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF
+}
+
+.button-github {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
+
+.button-linkedin {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+	--button-border:1px solid #FFFFFF;
+}
